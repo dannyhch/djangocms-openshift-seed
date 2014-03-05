@@ -46,12 +46,12 @@ Install the RHC client tools if you have not already done so:
 
 Create a python application
 
-    rhc app create django python-2.6
+    rhc app create django python-2.7
 
 Add this upstream repo
 
     cd django
-    git remote add upstream -m master git://github.com/openshift/django-example.git
+    git remote add upstream -m master git://github.com/dannyhch/djangocms-openshift-seed.git
     git pull -s recursive -X theirs upstream master
 
 Then push the repo upstream
