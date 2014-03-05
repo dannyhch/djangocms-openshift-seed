@@ -1,0 +1,13 @@
+*.py[co]
+*.sw[po]
+*.bak
+*.orig
+*~
+.project
+.pydevproject
+.DS_Store
+sqlite3.db
+build/
+dist/
+env/
+myCMS.egg-info/
